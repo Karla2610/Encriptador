@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     font-family: 'Inter', sans-serif;
-    font-style: italic;
     color: seashell;
     line-height: 150%;
 }
@@ -36,17 +35,17 @@ main{
 }
 
 .contenedor_caja_texto{
-    display: inline-block;
+    display: flex;
     left: 200px;
     top: 100px;
     padding-top: 10px;
     padding-left: 20px;
-    width: 900px;
+    width: 742px;
     height: 655px;
 }
 
 .area_texto{
-    position: auto;
+    position: fixed;
     width: 740px;
     height: 65%;
     border: none;
@@ -83,7 +82,7 @@ main{
 }
 
 .btn-encriptar{
-    width: 311px;
+    width: 300px;
     height: 60px;
     border-radius: 24px;
     background-image: linear-gradient(155deg, #005da3 0, #005dae 5.56%, #005bb7 11.11%, #0059be 16.67%, #0056c2 22.22%, #0053c5 27.78%, #004ec4 33.33%, #0048c2 38.89%, #0041bc 44.44%, #1838b5 50%, #4c2dac 55.56%, #681da0 61.11%, #7c0093 66.67%, #8b0085 72.22%, #970076 77.78%, #a00067 83.33%, #a60057 88.89%, #a90047 94.44%, #aa0038 100%);
@@ -95,6 +94,7 @@ main{
     cursor: pointer;
     position: relative;
     bottom: 10px;
+    left: 19px;
 }
 
 .btn-encriptar:hover{
@@ -104,7 +104,7 @@ main{
 }
 
 .btn-desencriptar{
-    width: 311px;
+    width: 300px;
     height: 60px;
     border-radius: 24px;
     background-image: linear-gradient(155deg, #005da3 0, #005dae 5.56%, #005bb7 11.11%, #0059be 16.67%, #0056c2 22.22%, #0053c5 27.78%, #004ec4 33.33%, #0048c2 38.89%, #0041bc 44.44%, #1838b5 50%, #4c2dac 55.56%, #681da0 61.11%, #7c0093 66.67%, #8b0085 72.22%, #970076 77.78%, #a00067 83.33%, #a60057 88.89%, #a90047 94.44%, #aa0038 100%);
@@ -146,6 +146,7 @@ main{
         align-items: center;
         width: 330px;    
         height: 374px;
+        font-size: 25px;
     }
     .alerta{
         text-align: left;
@@ -160,13 +161,26 @@ main{
         width: 326px;   
         height: 126px;
     }
-    .btn-encriptar, .btn-desencriptar{
+    .btn-encriptar{
         display: flex;
         align-items: center;
         width: 222px;    
         height: 40px;
         flex-direction: column;
         margin-bottom: 10px;
+        bottom:10px
+        left: 33px;
+    }
+
+    .btn-desencriptar{
+        display: flex;
+        align-items: center;
+        width: 222px;    
+        height: 40px;
+        flex-direction: column;
+        margin-bottom: 10px;
+        bottom:0px
+        left: 33px;
     }
 }
 
@@ -194,7 +208,7 @@ main{
     text-align: center;
     position: fixed;
     height: 534px;
-    width: 400px;
+    width: 377px;
     background-color: #1c3435;
     text-transform: lowercase
     cursor: pointer;
