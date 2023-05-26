@@ -52,7 +52,7 @@ main{
     border-radius: 24px;
     background-image: radial-gradient(circle at 1.76% 22.15%, #1c3435 0, #182a29 16.67%, #121b1a 33.33%, #000000 50%, #000000 66.67%, #000000 83.33%, #000000 100%);
     cursor: pointer;
-    font-size: 32vw;
+    font-size: 2vw;
     font-weight: 400px;
     font-family: 'Inter', sans-serif;
     color: seashell;
