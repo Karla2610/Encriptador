@@ -122,68 +122,46 @@ main{
     transform: scale(1.2);
     color: #000000;
 }
-
-@media screen and (min-width: 320px) and(max-width:746px){
-    .seccion1{
-        align-items: center;
+@media only screen and (max-width: 600px) {
+    header {
+      height: 50px;
     }
-    .logo{
-        align-items: auto;
-        margin: 2.4rem 0 0 1.6rem;
-        width: 20px;    
-        height: 30px;
+  
+    .logo {
+      height: 30px;
+      padding-top: 10px;
+      margin-left: 20px;
     }
-    main{
-        text-align: center;
+  
+    main {
+      height: 80%;
     }
-    .contenedor_caja_texto{
-        text-align: auto;
-        width: 410px;    
-        height: 559px;
-        margin-inline: 1.6rem;
+  
+    .seccion1 {
+      width: 20px;
     }
-    .area_texto{
-        align-items: center;
-        width: 330px;    
-        height: 374px;
-        font-size: 25px;
+  
+    .contenedor_caja_texto {
+      padding-left: 10px;
     }
-    .alerta{
-        text-align: left;
-        top: 455px;
+  
+    .area_texto {
+      font-size: 24px;
     }
-    .contenedor-botones{
-        align-items: center;
-        width: 326px;
-        right: 2px;    
-        left: 0px; 
-        top: 0px;
-        width: 326px;   
-        height: 126px;
+  
+    .alerta {
+      top: 416px;
+      left: 40px;
+      font-size: 10px;
     }
-    .btn-encriptar{
-        display: flex;
-        align-items: center;
-        width: 222px;    
-        height: 40px;
-        flex-direction: column;
-        margin-bottom: 10px;
-        bottom:10px
-        left: 33px;
+  
+    .contenedor-botones {
+      top: 428px;
+      height: 60px;
+      padding-left: 2%;
+      padding-top: 10px;
     }
-
-    .btn-desencriptar{
-        display: flex;
-        align-items: center;
-        width: 222px;    
-        height: 40px;
-        flex-direction: column;
-        margin-bottom: 10px;
-        bottom:0px
-        left: 33px;
-    }
-}
-
+  }
 .contenedor-resultado{
     width: 1px;
     height: 550px;
@@ -271,66 +249,80 @@ footer{
     text-align: center;
     justify-content: center;
 }
-
 @media screen and (min-width: 320px) and (max-width:746px){
-    .contenedor-resultado{
-        width: 364px;
-        height: 537px;
-        margin-bottom: 58px;
-        margin-top: 63px;
-        padding-top: 36px;
-        position: relative;
-        display: flex;
-        align-content: center;
-        flex-wrap: nowrap;
-        justify-content: center;
-        align-content: center;
-        top: 685px;
-    }
-    .texto-resultado{
-        text-align: auto;
-        right: 115px;      
-        height: 537px;    
-        margin-left: 1px;
-        width: 291px;
-        padding-left: 25px;
-        left: 0px;
-        border-left-width: 27px;
-        bottom: 867px;
-        top: 688px;
-        margin-inline: 1.6rem;
-        display: inline-flex;
-        flex-direction: column;
-        align-content: center;
-        justify-content: space-between;
-        align-items: center;
-    }   
-    
-    .contenedor-copiar{
-        align-items: center;
-        width: auto;
-        left: 25px;    
-        right: 42px;    
-        top: 1210px;
-    }
-    .btn-Copiar{
-        display: flex;
-        align-items: center;
-        width: 222px;    
-        height: 54px;
-        flex-direction: column;
-        left: auto;
-        justify-content: center;
-    }
-    footer{
-        text-align: center;
-        position: relative;
-        display: flex;
-        padding-top: 632px;
-    }
-    .copyright{
-        align-items: center;
+.contenedor-resultado {
+    width: 100%;
+    max-width: 600px;
+    height: 550px;
+    padding-left: 5%;
+    padding-right: 1%;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+}
 
-    }
-    
+.texto-resultado {
+    background-origin: content-box;
+    background-image: url(Imagenes/BMO.png);
+    background-position-y: top;
+    background-repeat: no-repeat;
+    border: none;
+    border-radius: 24px;
+    color: skyblue;
+    margin-top: 1.5%;
+    padding-left: 3%;
+    font-size: 4vw; /* Se ajusta el tamaño de fuente según el viewport */
+    text-align: center;
+    position: fixed;
+    height: 95%;
+    width: 80%;
+    background-color: #1c3435;
+    text-transform: lowercase;
+    cursor: pointer;
+}
+
+.texto-resultado:focus {
+    outline: none;
+}
+
+.texto-resultado::placeholder {
+    text-align: center;
+    font-size: 3vw; /* Se ajusta el tamaño de fuente según el viewport */
+    color: #4d5052;
+    line-height: 100px;
+    height: 20px;
+    padding-top: 64%; /* Ajustado según el contenedor */
+}
+
+.contenedor-copiar {
+    display: flex;
+    position: absolute;
+    bottom: 40%; /* Ajustado según el contenedor */
+    left: 50%;
+    transform: translateX(-50%);
+    padding-left: 10%;
+}
+
+.btn-Copiar {
+    width: 80%;
+    height: 10%;
+    border-radius: 24px;
+    background-image: linear-gradient(155deg, #005da3 0, #005dae 5.56%, #005bb7 11.11%, #0059be 16.67%, #0056c2 22.22%, #0053c5 27.78%, #004ec4 33.33%, #0048c2 38.89%, #0041bc 44.44%, #1838b5 50%, #4c2dac 55.56%, #681da0 61.11%, #7c0093 66.67%, #8b0085 72.22%, #970076 77.78%, #a00067 83.33%, #a60057 88.89%, #a90047 94.44%, #aa0038 100%);
+    color: seashell;
+    font-size: 2vw; /* Se ajusta el tamaño de fuente según el viewport */
+    font-weight: 400;
+    border: 1px solid #0A3B71;
+    cursor: pointer;
+}
+
+.btn-Copiar:hover {
+    background-image: linear-gradient(155deg, #a5eee2 0, #90e7df 12.5%, #76dedd 25%, #56d5db 37.5%, #20cbd9 50%, #00c1d8 62.5%, #00b7d9 75%, #00adda 87.5%, #00a4dc 100%);
+    transform: scale(1.2);
+    color: #000000;
+}
+
+footer {
+    text-align: center;
+    padding: 0;
+}
 }
