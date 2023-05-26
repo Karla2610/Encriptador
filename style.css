@@ -52,8 +52,8 @@ main{
     border-radius: 24px;
     background-image: radial-gradient(circle at 1.76% 22.15%, #1c3435 0, #182a29 16.67%, #121b1a 33.33%, #000000 50%, #000000 66.67%, #000000 83.33%, #000000 100%);
     cursor: pointer;
-    font-size: 2vw;
-    font-weight: 400px;
+    font-size: 30px;
+    font-weight: bold;
     font-family: 'Inter', sans-serif;
     color: seashell;
     text-transform: lowercase;
@@ -145,7 +145,7 @@ main{
         align-items: center;
         width: 330px;    
         height: 374px;
-        font-size: 25vw;
+        font-size: 25px;
         position: relative;
         flex-direction:column ;
     }
@@ -202,7 +202,7 @@ main{
     margin-left: -533px;
     margin-top: 9px;
     padding-left: 20px;
-    font-size: 20vw;
+    font-size: 20px;
     font-weight: bold;
     position: fixed;
     height: 534px;
