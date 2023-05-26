@@ -88,7 +88,7 @@ main{
     background-image: linear-gradient(155deg, #005da3 0, #005dae 5.56%, #005bb7 11.11%, #0059be 16.67%, #0056c2 22.22%, #0053c5 27.78%, #004ec4 33.33%, #0048c2 38.89%, #0041bc 44.44%, #1838b5 50%, #4c2dac 55.56%, #681da0 61.11%, #7c0093 66.67%, #8b0085 72.22%, #970076 77.78%, #a00067 83.33%, #a60057 88.89%, #a90047 94.44%, #aa0038 100%);
     color: seashell;
     font-size: 16px;
-    font-weight: 400;
+    font-weight: bold;
     border: none;
     margin-right: 20px;
     cursor: pointer;
@@ -111,7 +111,7 @@ main{
     cursor: pointer;
     color: seashell;
     font-size: 16PX;
-    font-weight: 400;
+    font-weight: bold;
     border: 1PX SOLID #0A3B71;
     position: relative;
     bottom: 10px;
@@ -201,6 +201,7 @@ main{
     margin-top: 9px;
     padding-left: 20px;
     font-size: 20vw;
+    font-weight: bold;
     position: fixed;
     height: 534px;
     width: 377px;
@@ -236,7 +237,7 @@ main{
     background-image: linear-gradient(155deg, #005da3 0, #005dae 5.56%, #005bb7 11.11%, #0059be 16.67%, #0056c2 22.22%, #0053c5 27.78%, #004ec4 33.33%, #0048c2 38.89%, #0041bc 44.44%, #1838b5 50%, #4c2dac 55.56%, #681da0 61.11%, #7c0093 66.67%, #8b0085 72.22%, #970076 77.78%, #a00067 83.33%, #a60057 88.89%, #a90047 94.44%, #aa0038 100%);
     color: seashell;
     font-size: 16px;
-    font-weight: 400;
+    font-weight: bold;
     border: 1px solid #0A3B71;
     cursor: pointer;
     position: relative;
