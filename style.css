@@ -45,7 +45,7 @@ main{
 }
 
 .area_texto{
-    position: fixed;
+    position: relative;
     width: 740px;
     height: 65%;
     border: none;
