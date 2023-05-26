@@ -89,4 +89,5 @@ let btnCopiar = document.querySelector(".btn-Copiar");
     btnCopiar.addEventListener("click", copiar = () => {
     let contenido = document.querySelector(".texto-resultado").textContent;
     navigator.clipboard.writeText(contenido);
+    alert("texto copiado con exito")
 })

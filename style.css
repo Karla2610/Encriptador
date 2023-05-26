@@ -301,7 +301,7 @@ footer{
     .texto-resultado{
         text-align: auto;
         right: 115px;      
-        height: 537px;    
+        height: 580px;    
         margin-left: 1px;
         width: 291px;
         padding-left: 25px;
@@ -309,20 +309,24 @@ footer{
         border-left-width: 27px;
         bottom: 867px;
         top: 688px;
-        margin-inline: 1.6rem;
+        margin-inline: 30.2px;
         display: inline-flex;
         flex-direction: column;
         align-content: center;
         justify-content: space-between;
         align-items: center;
     }   
+    .texto-resultado::placeholder{
+        font-size: 17px;
+        padding-top: -12px;
+    }
     
     .contenedor-copiar{
         align-items: center;
         width: auto;
         left: 25px;    
         right: 42px;    
-        top: 1210px;
+        top: 1252px;
     }
     .btn-Copiar{
         display: flex;
@@ -341,7 +345,22 @@ footer{
     }
     .copyright{
         align-items: center;
-
+        display: inline-flex;
     }
-    
+    .social-media{
+        text-decoration: none;
+        text-transform: uppercase;
+        display: table-footer-group;
+        position: relative;
+        left: 204px;
+    }
+    .linkedin{
+        width: 138px;
+        height: 68px;
+        margin-left: -800px;
+    }
+    .imagen-red-social{
+        height: 68px;
+        width: 138px;
+    }
 }
