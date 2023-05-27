@@ -306,19 +306,24 @@ footer{
         display: flex;
         flex-direction: row;
         justify-content: center;
-        left: 121px;
+        left: 80px;
         width: 188px;
         height: 60px;
+        -webkit-writing-mode: horizontal-tb;
+        padding: 0px;
     }
   
     .btn-Copiar {
-        width: 50%;
+        width: 35%;
         margin-bottom: 2px;
         font-size: 13px;
         height: 35px;
-        left: -10px;
-        margin-top: 39px;
-        position: absolute;
+        left: 93px;
+        margin-top: 613px;
+        position: fixed;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
   
     footer {
