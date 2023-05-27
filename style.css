@@ -237,31 +237,32 @@ footer{
       left: 0;
       top: 0;
       padding: 10px;
-      width: 200px;
+      width: 265px;
       height: auto;
     }
   
     .area_texto {
-      width: 208px;
-      height: 200px;
+      width: 267px;
+      height: 241px;
       font-size: 16px;
     }
   
     .alerta {
       top: auto;
-      bottom: 393px;
+      bottom: 353px;
       left: 20px;
       font-size: 10px;
     }
   
     .contenedor-botones {
       position: static;
-      margin-top: 20px;
-      padding-left: 0;
+      margin-top: 30px;
+      padding-left: 9;
       padding-top: 10px;
       display: flex;
       flex-direction: column;
       align-items: center;
+      width: 140px;
     }
   
     .btn-encriptar,
@@ -286,8 +287,10 @@ footer{
       margin-left: 0;
       margin-top: 10px;
       padding-left: 10px;
-      font-size: 16px;
-      height: auto;
+      font-size: 13px;
+      height: 428px;
+      width: 260px;
+      position: static;
     }
   
     .texto-resultado::placeholder {
@@ -296,24 +299,23 @@ footer{
   
     .contenedor-copiar {
       position: static;
-      margin-top: 322px;
+      margin-top: -37px;
       padding-left: 100px;
     }
   
     .btn-Copiar {
-      width: 100%;
-      margin-bottom: 10px;
+      width: 59%;
+      margin-bottom: -35px;
       font-size: 13px;
       height: 35px;
-      left: -32px;
-      right: 3px;    
+      left: -40px;    
     }
   
     footer {
       text-align: center;
       padding: 10px;
       position: relative;
-      top: 170px;
+      top: 102px;
     }
   
     .linkedin {
