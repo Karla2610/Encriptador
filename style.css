@@ -196,11 +196,12 @@ footer{
 .social-media{
     text-decoration: none;
     text-transform: uppercase;
+    padding-left: 1px;
 }
 .linkedin{
     width: 36px;
     height: 33px;
-    margin-left: -900px;
+    margin-left: -896px;
 }
 .imagen-red-social{
     height: 33px;
