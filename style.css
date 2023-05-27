@@ -302,11 +302,11 @@ footer{
     }
   
     .contenedor-copiar {
-      position: static;
-      margin-top: -196px;
-      padding-left: 145px;
-      height: 58px;
-      margin-left: 83px;
+      position: sticky;
+      margin-top: -190px;
+      padding-left: 152px;
+      height: 63px;
+      margin-left: 74px;
     }
   
     .btn-Copiar {
@@ -314,8 +314,9 @@ footer{
         margin-bottom: 2px;
         font-size: 13px;
         height: 35px;
-        left: -108px;
+        left: 1px;
         margin-top: 39px;
+        position: absolute;
     }
   
     footer {
@@ -326,12 +327,14 @@ footer{
     }
   
     .linkedin {
-      margin-left: -80px;
+      margin-left: -65px;
+      height: 40px;
+      width: 40px;
     }
   
     .imagen-red-social {
-      height: 20px;
-      width: 20px;
+      height: 37px;
+      width: 35px;
     }
   }
   
