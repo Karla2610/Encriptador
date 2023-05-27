@@ -257,8 +257,8 @@ footer{
   
     .contenedor-botones {
       position: static;
-      margin-top: 16px;
-      padding-left: 40px;
+      margin-top: 10px;
+      padding-left: 16px;
       padding-top: 13px;
       display: flex;
       flex-direction: column;
@@ -266,6 +266,9 @@ footer{
       flex-wrap: wrap;
       width: 293px;
       height: 57px;
+      background: #1A2980; 
+      background:-webkit-linear-gradient(to right, #26D0CE, #1A2980); 
+      background: linear-gradient(to right, #26D0CE, #1A2980);
     }
   
     .btn-encriptar,
@@ -275,6 +278,11 @@ footer{
       font-size: 13px;
       height: 36px;
       margin-top: 12px;
+    }
+    .btn-encriptar, .btn-desencriptar:hover{
+        background: #870000;
+        background:-webkit-linear-gradient(to bottom, #190A05, #870000); 
+        background: linear-gradient(to bottom, #190A05, #870000);
     }
   
     .contenedor-resultado {
@@ -314,6 +322,9 @@ footer{
         height: 60px;
         -webkit-writing-mode: horizontal-tb;
         padding: 0px;
+        background: #1A2980; 
+        background:-webkit-linear-gradient(to right, #26D0CE, #1A2980); 
+        background: linear-gradient(to right, #26D0CE, #1A2980);
     }
   
     .btn-Copiar {
@@ -328,12 +339,18 @@ footer{
         justify-content: center;
         align-items: center;
     }
+
+    .btn-Copiar:hover{
+        background: #870000;
+        background:-webkit-linear-gradient(to bottom, #190A05, #870000); 
+        background: linear-gradient(to bottom, #190A05, #870000);
+    }
   
     footer {
       text-align: center;
       padding: 0px;
       position: relative;
-      top: 149px;
+      top: 60px;
     }
   
     .linkedin {
