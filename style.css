@@ -84,14 +84,14 @@ main{
 
 .btn-encriptar{
     width: 250px;
-    height: 60px;
+    height: 56px;
     border-radius: 24px;
     background-image: linear-gradient(155deg, #005da3 0, #005dae 5.56%, #005bb7 11.11%, #0059be 16.67%, #0056c2 22.22%, #0053c5 27.78%, #004ec4 33.33%, #0048c2 38.89%, #0041bc 44.44%, #1838b5 50%, #4c2dac 55.56%, #681da0 61.11%, #7c0093 66.67%, #8b0085 72.22%, #970076 77.78%, #a00067 83.33%, #a60057 88.89%, #a90047 94.44%, #aa0038 100%);
     color: seashell;
     font-size: 16px;
     font-weight: bold;
     border: none;
-    margin-right: 20px;
+    margin-right: 45px;
     cursor: pointer;
     position: relative;
     bottom: 10px;
@@ -106,7 +106,7 @@ main{
 
 .btn-desencriptar{
     width: 250px;
-    height: 60px;
+    height: 56px;
     border-radius: 24px;
     background-image: linear-gradient(155deg, #005da3 0, #005dae 5.56%, #005bb7 11.11%, #0059be 16.67%, #0056c2 22.22%, #0053c5 27.78%, #004ec4 33.33%, #0048c2 38.89%, #0041bc 44.44%, #1838b5 50%, #4c2dac 55.56%, #681da0 61.11%, #7c0093 66.67%, #8b0085 72.22%, #970076 77.78%, #a00067 83.33%, #a60057 88.89%, #a90047 94.44%, #aa0038 100%);
     cursor: pointer;
@@ -221,6 +221,11 @@ footer{
     header {
       height: 50px;
     }
+    .body{
+        background: #360033; 
+        background:-webkit-linear-gradient(to right, #0b8793, #360033)
+        background:linear-gradient(to right, #0b8793, #360033);
+    }
   
     .logo {
       height: 24px;
@@ -246,6 +251,10 @@ footer{
       width: 331px;
       height: 241px;
       font-size: 19px;
+      background: #283c86;
+      background:-webkit-linear-gradient(to right, #45a247, #283c86);
+      background: linear-gradient(to right, #45a247, #283c86);
+
     }
   
     .alerta {
@@ -279,11 +288,6 @@ footer{
       background:-webkit-linear-gradient(to right, #26D0CE, #1A2980); 
       background: linear-gradient(to right, #26D0CE, #1A2980);
     }
-    .btn-encriptar, .btn-desencriptar:hover{
-        background: #870000;
-        background:-webkit-linear-gradient(to bottom, #190A05, #870000); 
-        background: linear-gradient(to bottom, #190A05, #870000);
-    }
   
     .contenedor-resultado {
       width: 100%;
@@ -305,6 +309,9 @@ footer{
       width: 295px;
       position: static;
       background-image: none;
+      background: #200122; 
+      background:-webkit-linear-gradient(to right, #6f0000, #200122); 
+      background: linear-gradient(to right, #6f0000, #200122); 
     }
   
     .texto-resultado::placeholder {
@@ -339,12 +346,6 @@ footer{
         background:-webkit-linear-gradient(to right, #26D0CE, #1A2980); 
         background: linear-gradient(to right, #26D0CE, #1A2980);
     }
-    }
-
-    .btn-Copiar:hover{
-        background: #870000;
-        background:-webkit-linear-gradient(to bottom, #190A05, #870000); 
-        background: linear-gradient(to bottom, #190A05, #870000);
     }
   
     footer {
