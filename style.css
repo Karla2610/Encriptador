@@ -263,7 +263,8 @@ footer{
       display: flex;
       flex-direction: column;
       align-items: center;
-      width: 140px;
+      flex-wrap: wrap;
+      width: 160px;
     }
   
     .btn-encriptar,
@@ -302,11 +303,13 @@ footer{
     }
   
     .contenedor-copiar {
-      position: sticky;
-      margin-top: -190px;
-      padding-left: 152px;
-      height: 63px;
-      margin-left: 74px;
+      position: relative;
+      margin-top: -222px;
+      padding-left: 145px;
+      height: 56px;
+      margin-left: 85px;
+      top: 124px;
+      left: -4px;
     }
   
     .btn-Copiar {
@@ -314,7 +317,7 @@ footer{
         margin-bottom: 2px;
         font-size: 13px;
         height: 35px;
-        left: 1px;
+        left: -10px;
         margin-top: 39px;
         position: absolute;
     }
