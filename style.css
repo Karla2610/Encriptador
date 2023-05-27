@@ -245,20 +245,20 @@ footer{
     .area_texto {
       width: 267px;
       height: 241px;
-      font-size: 16px;
+      font-size: 19px;
     }
   
     .alerta {
       top: auto;
-      bottom: 365px;
-      left: 20px;
+      bottom: 370px;
+      left: 36px;
       font-size: 11px;
     }
   
     .contenedor-botones {
       position: static;
       margin-top: 15px;
-      padding-left: 9;
+      padding-left: 40px;
       padding-top: 10px;
       display: flex;
       flex-direction: column;
@@ -276,7 +276,7 @@ footer{
     .contenedor-resultado {
       width: 100%;
       height: auto;
-      padding-left: 10px;
+      padding-left: 22px;
       padding-right: 10px;
       box-sizing: border-box;
       display: flex;
@@ -288,7 +288,7 @@ footer{
       margin-left: 0;
       margin-top: -10px;
       padding-left: 10px;
-      font-size: 10px;
+      font-size: 19px;
       height: 428px;
       width: 260px;
       position: static;
@@ -302,7 +302,7 @@ footer{
   
     .contenedor-copiar {
       position: static;
-      margin-top: -37px;
+      margin-top: -40px;
       padding-left: 90px;
     }
   
