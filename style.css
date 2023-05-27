@@ -223,7 +223,7 @@ footer{
     }
     .body{
         background: #360033; 
-        background:-webkit-linear-gradient(to right, #0b8793, #360033)
+        background:-webkit-linear-gradient(to right, #0b8793, #360033);
         background:linear-gradient(to right, #0b8793, #360033);
     }
   
