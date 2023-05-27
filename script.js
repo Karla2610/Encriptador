@@ -8,15 +8,19 @@ botonDesencriptar.onclick = desencriptar;
 
 function encriptar(){
     var area_texto = recuperarTexto();
+    if (validateText(area_texto)) {
     resultado.textContent = encriptarTexto(area_texto);
     textArea.value = "";
     resultado.style.backgroundImage = "none"
+  }
 }
 
 function desencriptar(){
     var area_texto = recuperarTexto();
+    if (validateText(area_texto)) {
     resultado.textContent = desencriptarTexto(area_texto);
     textArea.value = "";
+  }
 }
 
 function recuperarTexto(){
@@ -85,38 +89,18 @@ function desencriptarTexto(mensaje){
     return textoFinal;
 }
 
-function removerAcentos(area_texto){
-    const acentos = [  
-    /[\300-\306]/g, /[\340-\346]/g, 
-    /[\310-\313]/g, /[\350-\353]/g, 
-    /[\314-\317]/g, /[\354-\357]/g,
-    /[\322-\330]/g, /[\362-\370]/g, 
-    /[\331-\334]/g, /[\371-\374]/g, 
-    /[\321]/g, /[\361]/g, 
-    /[\307]/g, /[\347]/g, 
-  ];
-  
-  const letras = ['A', 'a', 'E', 'e', 'I', 'i', 'O', 'o', 'U', 'u', 'N', 'n', 'C', 'c'];
-  
-  for (let i = 0; i < acentos.length; i++) {
-    area_texto = area_texto.replace(acentos[i], letras[i]);
-  }
-  
-  return area_texto;
-}
+function validateText(text) {
+  const accents = /[áéíóúÁÉÍÓÚ]/g;
 
-function validandoTexto(area_texto) {
-  const normalizar-area_texto = removerAcentos(area_texto);
-  
-  if (area_texto !== normalizar-area_texto) {
-    alert('No se aceptan acentos en el texto. Por favor, remueve los acentos antes de continuar.');
-  } else {
-    console.log('Texto válido:', area_texto);
+  if (accents.test(text)) {
+    alert(
+      "No se aceptan acentos en el texto. Por favor, remueve los acentos antes de continuar."
+    );
+    return false;
   }
-}
 
-const inputText = '¡Hólà!';
-validateText(inputText);
+  return true;
+}
 
 
 let btnCopiar = document.querySelector(".btn-Copiar");
