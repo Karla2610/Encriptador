@@ -237,20 +237,21 @@ footer{
       left: 0;
       top: 0;
       padding: 10px;
-      width: 100%;
+      width: 200px;
       height: auto;
     }
   
     .area_texto {
-      width: 100%;
-      height: 150px;
+      width: 208px;
+      height: 200px;
       font-size: 16px;
     }
   
     .alerta {
       top: auto;
-      bottom: 20px;
+      bottom: 393px;
       left: 20px;
+      font-size: 10px;
     }
   
     .contenedor-botones {
@@ -267,6 +268,7 @@ footer{
     .btn-desencriptar {
       width: 100%;
       margin-bottom: 10px;
+      font-size: 13px;
     }
   
     .contenedor-resultado {
@@ -294,18 +296,24 @@ footer{
   
     .contenedor-copiar {
       position: static;
-      margin-top: 20px;
-      padding-left: 0;
+      margin-top: 322px;
+      padding-left: 100px;
     }
   
     .btn-Copiar {
       width: 100%;
       margin-bottom: 10px;
+      font-size: 13px;
+      height: 35px;
+      left: -32px;
+      right: 3px;    
     }
   
     footer {
       text-align: center;
       padding: 10px;
+      position: relative;
+      top: 170px;
     }
   
     .linkedin {
