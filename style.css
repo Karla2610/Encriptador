@@ -223,7 +223,7 @@ footer{
     }
   
     .logo {
-      height: 30px;
+      height: 24px;
       padding-top: 10px;
       margin-left: 20px;
     }
@@ -239,6 +239,7 @@ footer{
       padding: 10px;
       width: 265px;
       height: auto;
+      padding-top: 0px;
     }
   
     .area_texto {
@@ -249,14 +250,14 @@ footer{
   
     .alerta {
       top: auto;
-      bottom: 353px;
+      bottom: 365px;
       left: 20px;
-      font-size: 10px;
+      font-size: 11px;
     }
   
     .contenedor-botones {
       position: static;
-      margin-top: 30px;
+      margin-top: 15px;
       padding-left: 9;
       padding-top: 10px;
       display: flex;
@@ -285,22 +286,24 @@ footer{
   
     .texto-resultado {
       margin-left: 0;
-      margin-top: 10px;
+      margin-top: -10px;
       padding-left: 10px;
-      font-size: 13px;
+      font-size: 10px;
       height: 428px;
       width: 260px;
       position: static;
     }
   
     .texto-resultado::placeholder {
-      padding-top: 10px;
+      padding-top: 300px;
+      font-size: 16px;
+      top: 20px;
     }
   
     .contenedor-copiar {
       position: static;
       margin-top: -37px;
-      padding-left: 100px;
+      padding-left: 90px;
     }
   
     .btn-Copiar {
@@ -315,7 +318,7 @@ footer{
       text-align: center;
       padding: 10px;
       position: relative;
-      top: 102px;
+      top: 25px;
     }
   
     .linkedin {
