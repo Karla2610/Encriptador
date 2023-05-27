@@ -6,6 +6,8 @@
         "botones",
         "Bustos",
         "Chaves",
+        "continuar",
+        "copiado",
         "Copiar",
         "desencriptador",
         "Desencriptar",
@@ -13,13 +15,17 @@
         "Encriptador",
         "Encriptar",
         "hola",
+        "Hólà",
         "Imagenes",
         "informacion",
         "Ingrese",
         "letras",
         "mensaje",
         "minúsculas",
+        "normalizar",
         "texto",
-        "textos"
+        "textos",
+        "validando",
+        "válido"
     ]
 }
