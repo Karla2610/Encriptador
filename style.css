@@ -289,36 +289,38 @@ footer{
       margin-top: -10px;
       padding-left: 10px;
       font-size: 19px;
-      height: 428px;
+      height: 271px;
       width: 295px;
       position: static;
+      background-image: none;
     }
   
     .texto-resultado::placeholder {
-      padding-top: 300px;
-      font-size: 16px;
+      padding-top: 200px;
+      font-size: 19px;
       top: 20px;
     }
   
     .contenedor-copiar {
       position: static;
-      margin-top: -45px;
-      padding-left: 125px;
+      margin-top: 11px;
+      padding-left: 138px;
     }
   
     .btn-Copiar {
-      width: 59%;
-      margin-bottom: -35px;
-      font-size: 13px;
-      height: 35px;
-      left: -40px;    
+        width: 50%;
+        margin-bottom: 2px;
+        font-size: 13px;
+        height: 35px;
+        left: -40px;
+        margin-top: -110px;
     }
   
     footer {
       text-align: center;
-      padding: 10px;
+      padding: 0px;
       position: relative;
-      top: 25px;
+      top: 80px;
     }
   
     .linkedin {
