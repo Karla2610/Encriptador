@@ -309,9 +309,9 @@ footer{
       width: 295px;
       position: static;
       background-image: none;
-      background: #200122; 
-      background:-webkit-linear-gradient(to right, #6f0000, #200122); 
-      background: linear-gradient(to right, #6f0000, #200122); 
+      background: #283c86;
+      background:-webkit-linear-gradient(to right, #45a247, #283c86);
+      background: linear-gradient(to right, #45a247, #283c86);
     }
   
     .texto-resultado::placeholder {
