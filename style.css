@@ -296,15 +296,17 @@ footer{
     }
   
     .texto-resultado::placeholder {
-      padding-top: 200px;
+      padding-top: 10px;
       font-size: 19px;
       top: 20px;
     }
   
     .contenedor-copiar {
       position: static;
-      margin-top: 11px;
-      padding-left: 138px;
+      margin-top: -196px;
+      padding-left: 145px;
+      height: 58px;
+      margin-left: 83px;
     }
   
     .btn-Copiar {
@@ -312,15 +314,15 @@ footer{
         margin-bottom: 2px;
         font-size: 13px;
         height: 35px;
-        left: -40px;
-        margin-top: -110px;
+        left: -108px;
+        margin-top: 39px;
     }
   
     footer {
       text-align: center;
       padding: 0px;
       position: relative;
-      top: 80px;
+      top: 240px;
     }
   
     .linkedin {
