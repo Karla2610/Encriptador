@@ -237,20 +237,20 @@ footer{
       left: 0;
       top: 0;
       padding: 10px;
-      width: 265px;
+      width: 334px;
       height: auto;
       padding-top: 0px;
     }
   
     .area_texto {
-      width: 267px;
+      width: 331px;
       height: 241px;
       font-size: 19px;
     }
   
     .alerta {
       top: auto;
-      bottom: 370px;
+      bottom: 607px;
       left: 36px;
       font-size: 11px;
     }
@@ -285,12 +285,12 @@ footer{
     }
   
     .texto-resultado {
-      margin-left: 0;
+      margin-left: 15px;
       margin-top: -10px;
       padding-left: 10px;
       font-size: 19px;
       height: 428px;
-      width: 260px;
+      width: 295px;
       position: static;
     }
   
@@ -302,8 +302,8 @@ footer{
   
     .contenedor-copiar {
       position: static;
-      margin-top: -40px;
-      padding-left: 90px;
+      margin-top: -45px;
+      padding-left: 125px;
     }
   
     .btn-Copiar {
