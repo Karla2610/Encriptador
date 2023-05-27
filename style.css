@@ -266,9 +266,6 @@ footer{
       flex-wrap: wrap;
       width: 293px;
       height: 57px;
-      background: #1A2980; 
-      background:-webkit-linear-gradient(to right, #26D0CE, #1A2980); 
-      background: linear-gradient(to right, #26D0CE, #1A2980);
     }
   
     .btn-encriptar,
@@ -278,6 +275,9 @@ footer{
       font-size: 13px;
       height: 36px;
       margin-top: 12px;
+      background: #1A2980; 
+      background:-webkit-linear-gradient(to right, #26D0CE, #1A2980); 
+      background: linear-gradient(to right, #26D0CE, #1A2980);
     }
     .btn-encriptar, .btn-desencriptar:hover{
         background: #870000;
@@ -322,9 +322,6 @@ footer{
         height: 60px;
         -webkit-writing-mode: horizontal-tb;
         padding: 0px;
-        background: #1A2980; 
-        background:-webkit-linear-gradient(to right, #26D0CE, #1A2980); 
-        background: linear-gradient(to right, #26D0CE, #1A2980);
     }
   
     .btn-Copiar {
@@ -338,6 +335,10 @@ footer{
         display: flex;
         justify-content: center;
         align-items: center;
+        background: #1A2980; 
+        background:-webkit-linear-gradient(to right, #26D0CE, #1A2980); 
+        background: linear-gradient(to right, #26D0CE, #1A2980);
+    }
     }
 
     .btn-Copiar:hover{
